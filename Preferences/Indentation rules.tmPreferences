@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Indentation rules</string>
+	<key>scope</key>
+	<string>source.groovy</string>
+	<key>settings</key>
+	<dict>
+		<key>decreaseIndentPattern</key>
+		<string>^\s*((?!\S.*/[*]).*[*]/\s*)?[})\]]</string>
+		<key>increaseIndentPattern</key>
+		<string>^.*\{(\}|[^}"']*)$|^.*\[(\]|[^\]"']*)$|^.*\((\)|[^\)"']*)$</string>
+		<key>indentNextLinePattern</key>
+		<string>^\s*(for|while|if|else|waitUntil|try|catch)\b</string>
+	</dict>
+	<key>uuid</key>
+	<string>C10E25C5-D3C3-4BF5-88E6-CD819F14515F</string>
+</dict>
+</plist>
