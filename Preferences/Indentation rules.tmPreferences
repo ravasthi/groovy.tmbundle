@@ -11,7 +11,7 @@
 		<key>decreaseIndentPattern</key>
 		<string>^\s*((?!\S.*/[*]).*[*]/\s*)?[})\]]</string>
 		<key>increaseIndentPattern</key>
-		<string>^.*\{(\}|[^}"']*)$|^.*\[(\]|[^\]"']*)$|^.*\((\)|[^\)"']*)$</string>
+		<string>^.*\{(\}|[^}"']*)$|^.*\[(?![\]"']*)$|^.*\((?![\)"']+)$</string>
 		<key>indentNextLinePattern</key>
 		<string>^\s*(for|while|if|else|waitUntil|try|catch)\b</string>
 	</dict>
